@@ -26,23 +26,30 @@
   #gform .form-group{
     margin-top:3px;
   }
+  #id_div_image img{
+      width: 100%;
+  }
+  .desc{
+      text-align: center;
+      font-style: italic;
+  }
 </style>
 <title>Poovaranthode Hillway Resorts</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"><img src="images/logo.png" style="width: 40px;">Poovaranthode Hillway Resorts</a>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="width: 40px;">Poovaranthode Hillway Resorts</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html/">Home</a>
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link active" href="gallery.html">Gallery</a>
               </li>
               <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -66,126 +73,59 @@
           </div>
         </div>
     </nav>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
-        <div class="carousel-indicators" style="margin: 10px;">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner" style="max-height:650px;min-height: 250px;">
-          <div class="carousel-item active" data-bs-interval="1000">
-            <img src="images/resort.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Coming Soon</h5>
-              <p>Work in progress</p>
+    <div id="id_div_image" class="row" data-bs-ride="carousel" style="padding:0px 5px 10px 20px  ;">
+        <h3>Gallery</h3>
+          <div class="col-md-4">
+            <div class="">
+              <a target="_blank" href="images/room-right.jpeg">
+                <img src="images/room-right.jpeg" alt="poovaranthode hillway resorts">
+              </a>
+              <div class="desc">Bedroom 1</div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/slide1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Hiking</h5>
-              <p>Fresh air and muddy boots make everything better.</p>
+          <div class="col-md-4">
+            <div class="">
+              <a target="_blank" href="images/bedroom-left.jpeg">
+                <img src="images/bedroom-left.jpeg" alt="poovaranthode hillway resorts">
+              </a>
+              <div class="desc">Bedroom 2</div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/slide2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Swimming pool</h5>
-              <p>Don’t wait for your ship to come in – swim out to it.</p>
+          <div class="col-md-4">
+              <div class="">
+                <a target="_blank" href="images/bathroom.jpeg">
+                  <img src="images/bathroom.jpeg" alt="poovaranthode hillwayresorts">
+                </a>
+                <div class="desc">Bathroom</div>
+              </div>
+            </div>
+          <div class="col-md-4">
+            <div class="">
+              <a target="_blank" href="images/hall.jpeg">
+                <img src="images/hall.jpeg" alt="poovaranthode hillway resorts">
+              </a>
+              <div class="desc">Dinning Room</div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/slide3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Find happiness</h5>
-              <p></p>
+          <div class="col-md-4">
+            <div class="">
+              <a target="_blank" href="images/varandah.jpeg">
+                <img src="images/varandah.jpeg" alt="poovaranthode hillway resorts">
+              </a>
+              <div class="desc">Balcony</div>
             </div>
           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          
+          <div class="col-md-4">
+            <div class="">
+              <a target="_blank" href="images/out.jpeg">
+                <img src="images/out.jpeg" alt="poovaranthode hillway resorts">
+              </a>
+              <div class="desc">Swimming pool</div>
+            </div>
+          </div>
     </div>
-    <section class="contact-us" id="contact">
-      <div class="container col-12">
-        <div class="row">
-          
-          <!-- section title -->
-          <div class="col-12">
-          <div class="title text-center" >
-            <h2>Get In Touch</h2>
-           
-            <div class="border"></div>
-          </div>
-          </div>
-          <!-- /section title -->
-          
-          <!-- Contact Details -->
-          <div class="contact-details col-md-6 " >
-            <h3>Contact Details</h3>
-           
-            <ul class="list-unstyled ul-contact" >
-              <li>
-                <i class="fa fa-home"></i>
-                <span>Poovaranthode Hillway Resorts</span></li>
-              </li>
-              <li>
-                <i class="fa fa-map-marker"></i>
-                <a href="https://goo.gl/maps/Brj8hYor47LsbrXv6">Poovaranthode, Kozhikode, Kerala</a>
-              </li>
-              <li>
-                <i class="fa fa-mobile"></i>
-                <a href="tel:919656225567"><span>Phone: +91 9656 2255 67</span></a>
-              </li>
-              <li>
-                <i class="fa fa-envelope"></i>
-                <a href="mailto:hillwayresorts.poovaranthode.com"><span>Email: hillwayresorts.poovaranthode.com</span></a>
-              </li>
-            </ul>
-            <img src="images/company-logo.png" width="200">
-          </div>
-          <!-- / End Contact Details -->
-            
-          <!-- Contact Form -->
-          <div class="contact-form col-md-6 " >
-            <form id="gform" method="post" role="form">
-              <div class="form-group">
-                <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-              </div>
-              
-              <div class="form-group">
-                <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-              </div>
-              <div class="form-group">
-                <input type="text" placeholder="Your Mobile number" class="form-control" name="mobilenumber" id="mobile">
-              </div>
-              <div class="form-group">
-                <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-              </div>
-              
-              <div class="form-group">
-                <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
-              </div>
-              
-              
-              <div class="form-group">
-                <button type="submit" id="contact-submit" class="btn btn-info"><i class="fa fa-paper-plane" aria-hidden="true"></i>
-                   Send</button>
-              </div>						
-              
-            </form>
-          </div>
-          <!-- ./End Contact Form -->
-        
-        </div> <!-- end row -->
-      </div> <!-- end container -->
-    </section> <!-- end section -->
+    
       <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <!-- Grid container container pt-4-->
         <div class="">
